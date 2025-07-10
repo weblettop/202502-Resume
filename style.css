@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: 'Arimo', sans-serif;
+  height: 100%;
+
+  font-size: 14px;
+}
+.italic {
+  font-style: italic;
+}
+.bold {
+  font-weight: 700;
+}
+
+.wrapper {
+  color: #333;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+
+  width: 900px;
+  margin: 40px;
+}
+h1 {
+  font-size: 2.3rem;
+  margin-bottom: 0.5rem;
+}
+h1,
+h2,
+h3 {
+  color: #1d418a;
+}
+h2 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.8rem;
+  padding-bottom: 0.2rem;
+
+  font-weight: 700;
+  border-bottom: 1px solid #d3d3d3;
+}
+h4 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+.contact {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  margin-bottom: 25px;
+}
+.contact_1 {
+  flex: 1;
+}
+.contact_2 {
+  margin-bottom: 20px;
+  line-height: 1.5rem;
+}
+p {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+.one {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  /* gap: 1rem; */
+  margin-bottom: 20px;
+}
+.time {
+  width: 170px;
+  font-weight: 700;
+}
+.item {
+  flex: 1;
+}
+ul {
+  margin-left: 1rem;
+  line-height: 1.5rem;
+}
+.item > p {
+  margin-top: 0.5rem;
+}
+.two ul {
+  list-style: none;
+  margin-left: 0;
+}
